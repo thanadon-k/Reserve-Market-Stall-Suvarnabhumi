@@ -1,0 +1,48 @@
+.component_stall {
+    position: relative;
+}
+
+.stall_select {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    text-align: center; 
+    color: #ffffff;
+    background-color: #53726E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div_state {
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    background-color: #354440;
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+
+.stall_select h3{
+    position: absolute;
+    top: 1px;
+}
+
+.stall_select:active {
+    background-color: #595d5c;
+}
+
+.stall_enable {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(101, 106, 103, 0.715);
+    border-radius: 5px;
+}
+
+.stall_disable {
+    color: gray;
+}

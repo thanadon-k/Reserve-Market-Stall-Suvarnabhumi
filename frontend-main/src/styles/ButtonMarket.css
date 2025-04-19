@@ -1,0 +1,11 @@
+.button_market{
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #53726E;
+    cursor: pointer;
+}
+
+.button_market:hover{
+    background-color: #6e7a79;
+}

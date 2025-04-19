@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+  background-color: #D9D9D9;
+}
+
+.reportpage {
+  display: flex;
+  flex-direction: column;
+  width: 414px;
+  height: 736px;
+  margin: auto;
+  padding: 3px 20px 20px 20px;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+  font-family: "Inter", sans-serif;
+}
+
+.reportpage .nav_report {
+  display: flex;
+  align-items: center;
+}
+
+.reportpage .nav_report h2{
+  margin-left: 20px;
+}
+
+.location_form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 100%;
+}
+
+.input_large {
+  width: 340px;
+  height: 340px;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input_small {
+  width: 340px;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.reportpage button {
+  position: absolute;
+  bottom: 0px;
+  width: 340px;
+  height: 50px;
+  border: none;
+  background-color: #53726E;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.reportpage button:active {
+  background-color: #5f605f;
+}
+
+.upload_head{
+  color: #53726E;
+  margin-top: 20px;
+}

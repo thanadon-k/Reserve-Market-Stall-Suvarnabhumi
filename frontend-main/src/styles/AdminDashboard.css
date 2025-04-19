@@ -1,0 +1,106 @@
+/* AdminDashboard.css */
+
+.admin_dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav_L {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #53726E;
+    border-radius: 15px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .infor_admin {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name_admin {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .sub_title {
+    font-size: 14px;
+    color: white;
+    margin: 0;
+  }
+  
+  .financial {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .notification {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .notification h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .name_report {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .place, .date {
+    margin-bottom: 5px;
+  }
+  
+  .picture_wish {
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .picture_wish:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  

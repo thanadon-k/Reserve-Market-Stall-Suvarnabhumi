@@ -1,0 +1,38 @@
+.select_date {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.select_date h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.date_picker_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.date_picker_item{
+    flex: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.date_picker_item label {
+    width: 135px;
+    font-size: 12px;
+}
+
+.box_date {
+    border-radius: 5px;
+    width: 115px;
+    height: 40px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+    border: 1px solid #53726E;
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.popup_stateless .popup-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* สีพื้นหลังสำหรับเงาที่โปร่งเพื่อแสดงถึงการซ้อนทับ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_stateless .popup-main {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* เงาสำหรับ Popup */
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.popup_stateless .head-popup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid #53726E;
+}
+
+.popup_stateless .head-popup p{
+    margin-left: 20px;
+    color: #5f5c5d;
+    font-weight:  bold;
+}
+
+.popup_stateless .head-popup .status{
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight:  bold;
+    color: #53726E;
+    border-radius: 10px;
+    border: 1px solid #53726E;
+    cursor: pointer;
+}
+
+.popup_stateless .head-popup .status:hover{
+    background-color: #9a9a9a;
+}
+
+.popup_stateless .body-popup {
+    margin-top: 10px;
+    border: 1px solid #53726E;
+    border-radius: 15px;
+}
+
+.popup_stateless .body-popup p{
+    height: 50px;
+    font-size: 14px;
+    font-weight:  bold;
+    color: #5f5c5d;
+    margin-left: 20px;
+}

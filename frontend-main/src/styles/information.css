@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+.info-content{
+    display: block ;
+    margin: auto;
+    width: 60%;
+    font-family: "Inter", sans-serif;
+}
+
+.head_info{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 0px 30px;
+}
+.txt_head_info{
+    font-weight: bold;
+    font-size: 24px;
+}
+.score{
+    border: #53726E;
+    background: #53726E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 35px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.container-info{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.form-group-info{
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 5px #999696;
+}
+.infor-name{
+    width: 70%;
+}
+.infor-name > label{
+    font-size: 10px;
+    font-weight: bold;
+    color: #868182;
+    font-family: "Inter", sans-serif;
+}
+.infor-name > p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3E3C3C;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.info-btn{
+    width: 30%;
+}
+.btn-info{
+    border: #53726E 2px solid;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    color: #53726E;
+    background-color: #fff;
+    font-family: "Inter", sans-serif;
+}
+.logout-btn{
+    width: 60%;
+    height: 50px;
+    margin-bottom: 2%;
+    border: 1px solid gray;
+    background-color: #53726E;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 5px 5px #999696;
+    font-family: "Inter", sans-serif;;
+}

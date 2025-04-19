@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.payment_page {
+    display: flex;
+    flex-direction: column;
+    width: 414px;
+    height: 736px;
+    margin: auto;
+    padding: 3px 20px 20px 20px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    font-family: "Inter", sans-serif;
+
+}
+
+.head_payment {
+    display: flex;
+    align-items: center;
+}
+
+.head_payment h2 {
+    margin-left: 20px;
+}
+
+.payment_page .show-state {
+    font-size: 12px;
+    text-align: center;
+}
+
+.payment_page .show-state .front {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.payment_page .show-state .front .symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #53726E;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.payment_page .show-state .front .payment .symbol {
+    background-color: #53726E;
+}
+
+.payment_page .show-state .back {
+    position: relative;
+    top: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.payment_page .show-state .back div {
+    width: 150px;
+    height: 15px;
+}
+
+.payment_page .show-state .back .store_selectstall {
+    background-color: #A7BAB8;
+}
+
+.payment_page .show-state .back .selectstall_payment {
+    background-color: #A7BAB8;
+}
+
+.payment_detail {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 300px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.detail_head {
+    text-align: center;
+}
+
+.payment_bank {
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #868182;
+}
+
+.payment_name {
+    color: #5E5B5C;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.payment_name .num{
+    align-self: center;
+    color: #53726E;
+}
+
+.payment_name>p {
+    margin: 0;
+}
+
+.payment-stall {
+    color: #868182;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.payment-stall .price{
+    color: #53726E;
+    font-size: 17px;
+}
+.payment-stall>p {
+    margin: 0;
+}
+
+.payment-bill {
+    color: #53726E;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-bill>p {
+    margin: 5;
+}
+
+.btn-bill {
+    border: 1px solid #53726E;
+    background-color: #53726E;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+}
+
+.user-no {
+    font-weight: bold;
+    font-size: 16px;
+    color: #53726E;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 14px;
+    color: #868182;
+}
+
+.total-price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #53726E;
+}
+
+.btn-submit {
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #53726E;
+    border-radius: 15px;
+    background-color: #53726E;
+    color: #fff;
+    padding: 10px;
+}

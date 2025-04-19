@@ -1,0 +1,27 @@
+.component_lock {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 2px; 
+    position: relative;
+}
+
+.lock_select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #53726E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.status_1 {
+    background-color: #354440;
+}
+
+.red-background {
+    background-color: #FF0000;
+}

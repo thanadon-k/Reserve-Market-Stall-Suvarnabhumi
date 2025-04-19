@@ -1,0 +1,64 @@
+.reserved{
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.reserved {
+    display: flex;
+}
+
+.reserved .infor-left {
+    flex: 80%;
+    padding-left: 30px;
+}
+
+.reserved .infor-left div{
+    display: flex;
+    align-items: center;
+}
+
+.reserved .infor-left div h4{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.reserved .infor-rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 20%;
+    padding: 10px;
+}
+
+.infor-left .name, .price{
+    width: 200px;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+}
+
+.infor-left .price{
+    padding-left: 15px;
+    margin-bottom: 10px;
+    color: #53726E;
+}
+
+.infor-left .stall_reserved, .date {
+    font-size: 12px;
+    color: #7C7174;
+    margin: 0px;
+}
+
+.infor-rigth .delete{
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.infor-rigth .state {
+    width: 70px;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #53726E;
+    border-radius: 5px;
+} 
